@@ -1,0 +1,207 @@
+* {
+  scroll-behavior: smooth;
+
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background: url(../img/body-bg.png);
+  height: 1000px;
+  color: #fff;
+}
+
+/* container */
+.container {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  padding: 1em;
+
+  padding: 18px 0;
+}
+
+/* navbar */
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlink-item {
+  color: white;
+  font-size: 1.5rem;
+}
+.navlink-item:hover {
+  color: navy;
+}
+
+.nav-ul-menu {
+  background-color: gray;
+  padding: 1em;
+  width: 100%;
+}
+.navbar-nav .nav-ul-menu {
+  list-style: none;
+}
+
+/* content  section*/
+.main-content-bg {
+  background: url(../img/main-bg.png);
+}
+.content-container h1 {
+  text-align: center;
+  padding-top: 0.5em;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.main-content {
+  display: flex;
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 50px;
+}
+.content-img {
+  width: 30%;
+}
+.content-img img {
+  width: 100%;
+}
+.content-txt {
+  width: 50%;
+  align-self: center;
+  font-size: 1.889rem;
+  text-align: justify;
+}
+
+/* features-content */
+.feature-section {
+  margin-top: 5em;
+  background: url(../img/main-bg.png);
+  padding: 2em;
+}
+.feature-content h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.feature-content-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.content-img-feature {
+  width: 100%;
+}
+.content-img-feature img {
+  width: 30%;
+}
+
+.feature-text {
+  text-align: justify;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.24rem;
+}
+
+/* advantages section */
+.section-advantages {
+  margin-top: 5em;
+  background: url(../img/main-bg.png);
+  padding: 2em;
+}
+.section-advantages h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.content-container-advantages {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+.content-container-advantages p span {
+  font-weight: bold;
+}
+/* disadv */
+
+#disadvantages {
+  margin-top: 5em;
+  background: url(../img/main-bg.png);
+  padding: 2em;
+}
+
+.disadv-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#disadvantages h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.disadv-img {
+  width: 30%;
+  align-self: center;
+  justify-self: center;
+}
+
+.disadv-img img {
+  width: 80%;
+}
+.disadv-ul-menu {
+  width: 70%;
+}
+
+.disadv-ul-menu li {
+  text-align: justify;
+  font-size: 2.5rem;
+}
+
+/* BENEFITS */
+
+.section-benefits {
+  margin-top: 5em;
+  background: url(../img/main-bg.png);
+  padding: 2em;
+}
+
+.section-benefits h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+/* img adv & benefits */
+
+.img_benefits,
+.img_adv {
+  width: 30%;
+  margin: 0 43em;
+}
+
+.img_benefits img,
+.img_adv img {
+  width: 50%;
+}
